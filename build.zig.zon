@@ -1,0 +1,21 @@
+.{
+    .name = "tst2",
+
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .cppz = .{
+            .url = "git+https://github.com/xvfgc/cppz.git#79ae77fea0e6dc77db15560e09aee2dcf4f4d65a",
+            .hash = "122065512cd98ff240a916a045b71d094a019cbab773c72e11a263d997994d9fe30f",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
